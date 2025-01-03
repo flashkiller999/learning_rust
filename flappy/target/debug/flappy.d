@@ -1,1 +1,1 @@
-/home/paul/gits/rust_private/flappy/target/debug/flappy: /home/paul/gits/rust_private/flappy/src/main.rs
+/home/paul/gits/learning_rust/flappy/target/debug/flappy: /home/paul/gits/learning_rust/flappy/src/main.rs
