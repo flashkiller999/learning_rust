@@ -1,0 +1,12 @@
+/home/paul/gits/rust_private/flappy/target/debug/deps/libcrossfont-760fdb11ed35a6d9.rmeta: /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/lib.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/mod.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/fc/mod.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/fc/config.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/fc/font_set.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/fc/object_set.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/fc/char_set.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/fc/pattern.rs
+
+/home/paul/gits/rust_private/flappy/target/debug/deps/crossfont-760fdb11ed35a6d9.d: /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/lib.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/mod.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/fc/mod.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/fc/config.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/fc/font_set.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/fc/object_set.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/fc/char_set.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/fc/pattern.rs
+
+/home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/lib.rs:
+/home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/mod.rs:
+/home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/fc/mod.rs:
+/home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/fc/config.rs:
+/home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/fc/font_set.rs:
+/home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/fc/object_set.rs:
+/home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/fc/char_set.rs:
+/home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossfont-0.5.2/src/ft/fc/pattern.rs:

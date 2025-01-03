@@ -1,0 +1,4 @@
+/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/lib/libexpat.a
+/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/include/expat.h
+/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/include/expat_external.h
+/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/lib/pkgconfig/expat.pc

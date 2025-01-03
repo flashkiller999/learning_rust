@@ -1,0 +1,12 @@
+/home/paul/gits/rust_private/flappy/target/debug/deps/libbracket_color-6028036fe6258d84.rmeta: /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/lib.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/color_pair.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/hsv.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/lerpit.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/named.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/palette.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/rgb.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/rgba.rs
+
+/home/paul/gits/rust_private/flappy/target/debug/deps/bracket_color-6028036fe6258d84.d: /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/lib.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/color_pair.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/hsv.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/lerpit.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/named.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/palette.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/rgb.rs /home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/rgba.rs
+
+/home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/lib.rs:
+/home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/color_pair.rs:
+/home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/hsv.rs:
+/home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/lerpit.rs:
+/home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/named.rs:
+/home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/palette.rs:
+/home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/rgb.rs:
+/home/paul/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bracket-color-0.8.7/src/rgba.rs:

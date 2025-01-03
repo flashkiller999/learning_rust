@@ -1,0 +1,1083 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Linux - 6.12.6-200.fc41.x86_64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: -ffunction-sections;-fdata-sections;-fPIC;-m64
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/3.30.5/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: -ffunction-sections;-fdata-sections;-fPIC;-m64
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/3.30.5/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-SIzwnD"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-SIzwnD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-SIzwnD'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5646b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5646b.dir/build.make CMakeFiles/cmTC_5646b.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-SIzwnD'
+        Building C object CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -v -o CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-build/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) 
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5646b.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5646b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -m64 -mtune=generic -march=x86-64 -version -ffunction-sections -fdata-sections -fPIC -o /tmp/cclSLnzT.s
+        GNU C17 (GCC) version 14.2.1 20240912 (Red Hat 14.2.1-3) (x86_64-redhat-linux)
+        	compiled by GNU C version 14.2.1 20240912 (Red Hat 14.2.1-3), GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-redhat-linux/14/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 3cfa2c922a2ef3f6017b437b0661c120
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5646b.dir/'
+         as -v --64 -o CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.o /tmp/cclSLnzT.s
+        GNU assembler version 2.43.1 (x86_64-redhat-linux) using BFD version version 2.43.1-5.fc41
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_5646b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5646b.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64   -v -Wl,-v -rdynamic CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.o -o cmTC_5646b
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-build/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_5646b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5646b.'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccF2FLJb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5646b /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
+        collect2 version 14.2.1 20240912 (Red Hat 14.2.1-3)
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccF2FLJb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5646b /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
+        GNU ld version 2.43.1-5.fc41
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_5646b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5646b.'
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-SIzwnD'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-redhat-linux/14/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/14/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/14/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-redhat-linux/14/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-SIzwnD']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5646b/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_5646b.dir/build.make CMakeFiles/cmTC_5646b.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-SIzwnD']
+        ignore line: [Building C object CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -v -o CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-build/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5646b.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5646b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -m64 -mtune=generic -march=x86-64 -version -ffunction-sections -fdata-sections -fPIC -o /tmp/cclSLnzT.s]
+        ignore line: [GNU C17 (GCC) version 14.2.1 20240912 (Red Hat 14.2.1-3) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 14.2.1 20240912 (Red Hat 14.2.1-3)  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/14/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 3cfa2c922a2ef3f6017b437b0661c120]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5646b.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.o /tmp/cclSLnzT.s]
+        ignore line: [GNU assembler version 2.43.1 (x86_64-redhat-linux) using BFD version version 2.43.1-5.fc41]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_5646b]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5646b.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64   -v -Wl -v -rdynamic CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.o -o cmTC_5646b]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-build/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_5646b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5646b.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccF2FLJb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5646b /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/14/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccF2FLJb.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_5646b] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/14] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/14/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+        ignore line: [collect2 version 14.2.1 20240912 (Red Hat 14.2.1-3)]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccF2FLJb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5646b /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_5646b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/14] ==> [/usr/lib/gcc/x86_64-redhat-linux/14]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/14;/usr/lib64;/lib64;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld version 2.43.1-5.fc41
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-f9q4pH"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-f9q4pH"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-f9q4pH'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d0fa7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d0fa7.dir/build.make CMakeFiles/cmTC_d0fa7.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-f9q4pH'
+        Building CXX object CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64    -v -o CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-build/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) 
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d0fa7.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d0fa7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -m64 -mtune=generic -march=x86-64 -version -ffunction-sections -fdata-sections -fPIC -o /tmp/ccyggP0L.s
+        GNU C++17 (GCC) version 14.2.1 20240912 (Red Hat 14.2.1-3) (x86_64-redhat-linux)
+        	compiled by GNU C version 14.2.1 20240912 (Red Hat 14.2.1-3), GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14
+         /usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/x86_64-redhat-linux
+         /usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/backward
+         /usr/lib/gcc/x86_64-redhat-linux/14/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 4167a6214c52e277bbc153ab0994ccd5
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d0fa7.dir/'
+         as -v --64 -o CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccyggP0L.s
+        GNU assembler version 2.43.1 (x86_64-redhat-linux) using BFD version version 2.43.1-5.fc41
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_d0fa7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0fa7.dir/link.txt --verbose=1
+        /usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64   -v -Wl,-v -rdynamic CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d0fa7
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-build/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_d0fa7' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d0fa7.'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cceTmpxr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d0fa7 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
+        collect2 version 14.2.1 20240912 (Red Hat 14.2.1-3)
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cceTmpxr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d0fa7 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
+        GNU ld version 2.43.1-5.fc41
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_d0fa7' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d0fa7.'
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-f9q4pH'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/x86_64-redhat-linux]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/backward]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/14/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14] ==> [/usr/include/c++/14]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/x86_64-redhat-linux] ==> [/usr/include/c++/14/x86_64-redhat-linux]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/backward] ==> [/usr/include/c++/14/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/14/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/14/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/14;/usr/include/c++/14/x86_64-redhat-linux;/usr/include/c++/14/backward;/usr/lib/gcc/x86_64-redhat-linux/14/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-f9q4pH']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d0fa7/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_d0fa7.dir/build.make CMakeFiles/cmTC_d0fa7.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-f9q4pH']
+        ignore line: [Building CXX object CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64    -v -o CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-build/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d0fa7.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d0fa7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -m64 -mtune=generic -march=x86-64 -version -ffunction-sections -fdata-sections -fPIC -o /tmp/ccyggP0L.s]
+        ignore line: [GNU C++17 (GCC) version 14.2.1 20240912 (Red Hat 14.2.1-3) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 14.2.1 20240912 (Red Hat 14.2.1-3)  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/x86_64-redhat-linux]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/14/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 4167a6214c52e277bbc153ab0994ccd5]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d0fa7.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccyggP0L.s]
+        ignore line: [GNU assembler version 2.43.1 (x86_64-redhat-linux) using BFD version version 2.43.1-5.fc41]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_d0fa7]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0fa7.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64   -v -Wl -v -rdynamic CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d0fa7]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-build/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_d0fa7' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d0fa7.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cceTmpxr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d0fa7 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/14/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cceTmpxr.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_d0fa7] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/14] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/14/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+        ignore line: [collect2 version 14.2.1 20240912 (Red Hat 14.2.1-3)]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cceTmpxr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d0fa7 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_d0fa7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/14] ==> [/usr/lib/gcc/x86_64-redhat-linux/14]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/14;/usr/lib64;/lib64;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld version 2.43.1-5.fc41
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "ConfigureChecks.cmake:7 (check_include_file)"
+      - "CMakeLists.txt:38 (include)"
+    checks:
+      - "Looking for dlfcn.h"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-h4zmqI"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-h4zmqI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+    buildResult:
+      variable: "HAVE_DLFCN_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-h4zmqI'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_96eee/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_96eee.dir/build.make CMakeFiles/cmTC_96eee.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-h4zmqI'
+        Building C object CMakeFiles/cmTC_96eee.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_96eee.dir/CheckIncludeFile.c.o -c /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-h4zmqI/CheckIncludeFile.c
+        Linking C executable cmTC_96eee
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96eee.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -rdynamic CMakeFiles/cmTC_96eee.dir/CheckIncludeFile.c.o -o cmTC_96eee
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-h4zmqI'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "ConfigureChecks.cmake:8 (check_include_file)"
+      - "CMakeLists.txt:38 (include)"
+    checks:
+      - "Looking for fcntl.h"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-bBO7xb"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-bBO7xb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+    buildResult:
+      variable: "HAVE_FCNTL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-bBO7xb'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_11955/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_11955.dir/build.make CMakeFiles/cmTC_11955.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-bBO7xb'
+        Building C object CMakeFiles/cmTC_11955.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_11955.dir/CheckIncludeFile.c.o -c /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-bBO7xb/CheckIncludeFile.c
+        Linking C executable cmTC_11955
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11955.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -rdynamic CMakeFiles/cmTC_11955.dir/CheckIncludeFile.c.o -o cmTC_11955
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-bBO7xb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "ConfigureChecks.cmake:9 (check_include_file)"
+      - "CMakeLists.txt:38 (include)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-YNpfJ6"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-YNpfJ6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-YNpfJ6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b367b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b367b.dir/build.make CMakeFiles/cmTC_b367b.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-YNpfJ6'
+        Building C object CMakeFiles/cmTC_b367b.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_b367b.dir/CheckIncludeFile.c.o -c /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-YNpfJ6/CheckIncludeFile.c
+        Linking C executable cmTC_b367b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b367b.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -rdynamic CMakeFiles/cmTC_b367b.dir/CheckIncludeFile.c.o -o cmTC_b367b
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-YNpfJ6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "ConfigureChecks.cmake:10 (check_include_file)"
+      - "CMakeLists.txt:38 (include)"
+    checks:
+      - "Looking for memory.h"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-NCzoTK"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-NCzoTK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+    buildResult:
+      variable: "HAVE_MEMORY_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-NCzoTK'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d626e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d626e.dir/build.make CMakeFiles/cmTC_d626e.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-NCzoTK'
+        Building C object CMakeFiles/cmTC_d626e.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_d626e.dir/CheckIncludeFile.c.o -c /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-NCzoTK/CheckIncludeFile.c
+        Linking C executable cmTC_d626e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d626e.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -rdynamic CMakeFiles/cmTC_d626e.dir/CheckIncludeFile.c.o -o cmTC_d626e
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-NCzoTK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "ConfigureChecks.cmake:11 (check_include_file)"
+      - "CMakeLists.txt:38 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-X0HbUq"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-X0HbUq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-X0HbUq'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b4a8d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b4a8d.dir/build.make CMakeFiles/cmTC_b4a8d.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-X0HbUq'
+        Building C object CMakeFiles/cmTC_b4a8d.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_b4a8d.dir/CheckIncludeFile.c.o -c /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-X0HbUq/CheckIncludeFile.c
+        Linking C executable cmTC_b4a8d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4a8d.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -rdynamic CMakeFiles/cmTC_b4a8d.dir/CheckIncludeFile.c.o -o cmTC_b4a8d
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-X0HbUq'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "ConfigureChecks.cmake:12 (check_include_file)"
+      - "CMakeLists.txt:38 (include)"
+    checks:
+      - "Looking for stdlib.h"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-UKFPh4"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-UKFPh4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+    buildResult:
+      variable: "HAVE_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-UKFPh4'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6f3f9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6f3f9.dir/build.make CMakeFiles/cmTC_6f3f9.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-UKFPh4'
+        Building C object CMakeFiles/cmTC_6f3f9.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_6f3f9.dir/CheckIncludeFile.c.o -c /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-UKFPh4/CheckIncludeFile.c
+        Linking C executable cmTC_6f3f9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f3f9.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -rdynamic CMakeFiles/cmTC_6f3f9.dir/CheckIncludeFile.c.o -o cmTC_6f3f9
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-UKFPh4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "ConfigureChecks.cmake:13 (check_include_file)"
+      - "CMakeLists.txt:38 (include)"
+    checks:
+      - "Looking for strings.h"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-xVi1bF"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-xVi1bF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-xVi1bF'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e0f1f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e0f1f.dir/build.make CMakeFiles/cmTC_e0f1f.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-xVi1bF'
+        Building C object CMakeFiles/cmTC_e0f1f.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_e0f1f.dir/CheckIncludeFile.c.o -c /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-xVi1bF/CheckIncludeFile.c
+        Linking C executable cmTC_e0f1f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0f1f.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -rdynamic CMakeFiles/cmTC_e0f1f.dir/CheckIncludeFile.c.o -o cmTC_e0f1f
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-xVi1bF'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "ConfigureChecks.cmake:14 (check_include_file)"
+      - "CMakeLists.txt:38 (include)"
+    checks:
+      - "Looking for string.h"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-PT2DRS"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-PT2DRS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+    buildResult:
+      variable: "HAVE_STRING_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-PT2DRS'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d74db/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d74db.dir/build.make CMakeFiles/cmTC_d74db.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-PT2DRS'
+        Building C object CMakeFiles/cmTC_d74db.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_d74db.dir/CheckIncludeFile.c.o -c /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-PT2DRS/CheckIncludeFile.c
+        Linking C executable cmTC_d74db
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d74db.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -rdynamic CMakeFiles/cmTC_d74db.dir/CheckIncludeFile.c.o -o cmTC_d74db
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-PT2DRS'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "ConfigureChecks.cmake:15 (check_include_file)"
+      - "CMakeLists.txt:38 (include)"
+    checks:
+      - "Looking for sys/stat.h"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-n9sDUF"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-n9sDUF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+    buildResult:
+      variable: "HAVE_SYS_STAT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-n9sDUF'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_af218/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_af218.dir/build.make CMakeFiles/cmTC_af218.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-n9sDUF'
+        Building C object CMakeFiles/cmTC_af218.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_af218.dir/CheckIncludeFile.c.o -c /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-n9sDUF/CheckIncludeFile.c
+        Linking C executable cmTC_af218
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af218.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -rdynamic CMakeFiles/cmTC_af218.dir/CheckIncludeFile.c.o -o cmTC_af218
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-n9sDUF'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "ConfigureChecks.cmake:16 (check_include_file)"
+      - "CMakeLists.txt:38 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-2kQXYD"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-2kQXYD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-2kQXYD'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_23c5e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_23c5e.dir/build.make CMakeFiles/cmTC_23c5e.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-2kQXYD'
+        Building C object CMakeFiles/cmTC_23c5e.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_23c5e.dir/CheckIncludeFile.c.o -c /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-2kQXYD/CheckIncludeFile.c
+        Linking C executable cmTC_23c5e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23c5e.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -rdynamic CMakeFiles/cmTC_23c5e.dir/CheckIncludeFile.c.o -o cmTC_23c5e
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-2kQXYD'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "ConfigureChecks.cmake:17 (check_include_file)"
+      - "CMakeLists.txt:38 (include)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-8npSSo"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-8npSSo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-8npSSo'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_87ead/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_87ead.dir/build.make CMakeFiles/cmTC_87ead.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-8npSSo'
+        Building C object CMakeFiles/cmTC_87ead.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_87ead.dir/CheckIncludeFile.c.o -c /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-8npSSo/CheckIncludeFile.c
+        Linking C executable cmTC_87ead
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87ead.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -rdynamic CMakeFiles/cmTC_87ead.dir/CheckIncludeFile.c.o -o cmTC_87ead
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-8npSSo'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "ConfigureChecks.cmake:19 (check_function_exists)"
+      - "CMakeLists.txt:38 (include)"
+    checks:
+      - "Looking for getpagesize"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-FchZw6"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-FchZw6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+    buildResult:
+      variable: "HAVE_GETPAGESIZE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-FchZw6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_31046/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_31046.dir/build.make CMakeFiles/cmTC_31046.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-FchZw6'
+        Building C object CMakeFiles/cmTC_31046.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=getpagesize -o CMakeFiles/cmTC_31046.dir/CheckFunctionExists.c.o -c /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-FchZw6/CheckFunctionExists.c
+        Linking C executable cmTC_31046
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31046.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=getpagesize -rdynamic CMakeFiles/cmTC_31046.dir/CheckFunctionExists.c.o -o cmTC_31046
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-FchZw6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "ConfigureChecks.cmake:20 (check_function_exists)"
+      - "CMakeLists.txt:38 (include)"
+    checks:
+      - "Looking for bcopy"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-8OzaxB"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-8OzaxB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+    buildResult:
+      variable: "HAVE_BCOPY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-8OzaxB'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_269f7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_269f7.dir/build.make CMakeFiles/cmTC_269f7.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-8OzaxB'
+        Building C object CMakeFiles/cmTC_269f7.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=bcopy -o CMakeFiles/cmTC_269f7.dir/CheckFunctionExists.c.o -c /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-8OzaxB/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function 'bcopy'; expected 'void(const void *, void *, long unsigned int)' [-Wbuiltin-declaration-mismatch]
+        /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-8OzaxB/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        Linking C executable cmTC_269f7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_269f7.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=bcopy -rdynamic CMakeFiles/cmTC_269f7.dir/CheckFunctionExists.c.o -o cmTC_269f7
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-8OzaxB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "ConfigureChecks.cmake:21 (check_symbol_exists)"
+      - "CMakeLists.txt:38 (include)"
+    checks:
+      - "Looking for memmove"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-SZaoKm"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-SZaoKm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+    buildResult:
+      variable: "HAVE_MEMMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-SZaoKm'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3e340/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3e340.dir/build.make CMakeFiles/cmTC_3e340.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-SZaoKm'
+        Building C object CMakeFiles/cmTC_3e340.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_3e340.dir/CheckSymbolExists.c.o -c /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-SZaoKm/CheckSymbolExists.c
+        Linking C executable cmTC_3e340
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e340.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -rdynamic CMakeFiles/cmTC_3e340.dir/CheckSymbolExists.c.o -o cmTC_3e340
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-SZaoKm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "ConfigureChecks.cmake:22 (check_function_exists)"
+      - "CMakeLists.txt:38 (include)"
+    checks:
+      - "Looking for mmap"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-A0AR1N"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-A0AR1N"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+    buildResult:
+      variable: "HAVE_MMAP"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-A0AR1N'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a7914/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a7914.dir/build.make CMakeFiles/cmTC_a7914.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-A0AR1N'
+        Building C object CMakeFiles/cmTC_a7914.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=mmap -o CMakeFiles/cmTC_a7914.dir/CheckFunctionExists.c.o -c /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-A0AR1N/CheckFunctionExists.c
+        Linking C executable cmTC_a7914
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7914.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=mmap -rdynamic CMakeFiles/cmTC_a7914.dir/CheckFunctionExists.c.o -o cmTC_a7914
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-A0AR1N'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "ConfigureChecks.cmake:25 (check_include_files)"
+      - "CMakeLists.txt:38 (include)"
+    checks:
+      - "Looking for 4 include files stdlib.h, ..., float.h"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-84Yi0K"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-84Yi0K"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+    buildResult:
+      variable: "STDC_HEADERS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-84Yi0K'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a43fd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a43fd.dir/build.make CMakeFiles/cmTC_a43fd.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-84Yi0K'
+        Building C object CMakeFiles/cmTC_a43fd.dir/STDC_HEADERS.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_a43fd.dir/STDC_HEADERS.c.o -c /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-84Yi0K/STDC_HEADERS.c
+        Linking C executable cmTC_a43fd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a43fd.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -rdynamic CMakeFiles/cmTC_a43fd.dir/STDC_HEADERS.c.o -o cmTC_a43fd
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-84Yi0K'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "ConfigureChecks.cmake:36 (check_symbol_exists)"
+      - "CMakeLists.txt:38 (include)"
+    checks:
+      - "Looking for off_t"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-QCQYYi"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-QCQYYi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+    buildResult:
+      variable: "OFF_T"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-QCQYYi'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c39cf/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c39cf.dir/build.make CMakeFiles/cmTC_c39cf.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-QCQYYi'
+        Building C object CMakeFiles/cmTC_c39cf.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_c39cf.dir/CheckSymbolExists.c.o -c /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-QCQYYi/CheckSymbolExists.c
+        /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-QCQYYi/CheckSymbolExists.c: In function 'main':
+        /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-QCQYYi/CheckSymbolExists.c:8:19: error: expected expression before 'off_t'
+            8 |   return ((int*)(&off_t))[argc];
+              |                   ^~~~~
+        gmake[1]: *** [CMakeFiles/cmTC_c39cf.dir/build.make:78: CMakeFiles/cmTC_c39cf.dir/CheckSymbolExists.c.o] Error 1
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-QCQYYi'
+        gmake: *** [Makefile:127: cmTC_c39cf/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "ConfigureChecks.cmake:37 (check_symbol_exists)"
+      - "CMakeLists.txt:38 (include)"
+    checks:
+      - "Looking for size_t"
+    directories:
+      source: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-qozmJ4"
+      binary: "/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-qozmJ4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64"
+    buildResult:
+      variable: "SIZE_T"
+      cached: true
+      stdout: |
+        Change Dir: '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-qozmJ4'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_07a75/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_07a75.dir/build.make CMakeFiles/cmTC_07a75.dir/build
+        gmake[1]: Entering directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-qozmJ4'
+        Building C object CMakeFiles/cmTC_07a75.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_07a75.dir/CheckSymbolExists.c.o -c /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-qozmJ4/CheckSymbolExists.c
+        /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-qozmJ4/CheckSymbolExists.c: In function 'main':
+        /home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-qozmJ4/CheckSymbolExists.c:8:19: error: expected expression before 'size_t'
+            8 |   return ((int*)(&size_t))[argc];
+              |                   ^~~~~~
+        gmake[1]: *** [CMakeFiles/cmTC_07a75.dir/build.make:78: CMakeFiles/cmTC_07a75.dir/CheckSymbolExists.c.o] Error 1
+        gmake[1]: Leaving directory '/home/paul/gits/rust_private/flappy/target/debug/build/expat-sys-6444115ec92ef7c0/out/build/CMakeFiles/CMakeScratch/TryCompile-qozmJ4'
+        gmake: *** [Makefile:127: cmTC_07a75/fast] Error 2
+        
+      exitCode: 2
+...
